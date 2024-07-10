@@ -1,0 +1,25 @@
+[
+    {
+        "name":"Menu 1",
+        "link":"https://stackblitz.com/",
+        "subitems":[{
+            "name":"Menu 2",
+            "link":"https://stackblitz.com/"
+        }]
+    },
+    {
+        "name":"Menu 3",
+        "link":"https://stackblitz.com/",
+        "subitems":[{
+            "name":"Menu 4",
+            "link":"https://stackblitz.com/",
+            "subitems":[{
+                "name":"Menu 5",
+                "link":"https://stackblitz.com/"
+            },{
+                "name":"Menu 6",
+                "link":"https://stackblitz.com/"
+            }]
+        }]
+    }
+]

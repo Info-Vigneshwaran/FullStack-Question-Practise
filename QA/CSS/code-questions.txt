@@ -1,0 +1,4 @@
+1. What are the postions available in CSS? and explain the Difference between them?
+2. What is flexbox , what are advantages and explain their property?
+3. What is gridbox , what are advantages and explain their property?
+4. Difference between display:none and visibility hidden?

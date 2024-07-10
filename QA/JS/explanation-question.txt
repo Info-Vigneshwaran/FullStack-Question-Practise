@@ -1,0 +1,14 @@
+1. What is hoisting in javascript and how it works?
+2. Difference between var, let and const keywords in JavaScript?
+3. What is event loop and explain in detail with example how its works?
+4. what is the Difference between setTimeout and setInterval?
+5. list down all the ES6 features in javascript?
+6. What is shallow copy and deep copy explain in detail with example?
+7. What is closure? explain in detail with an example?
+8. Have you used reduce function in javascript?
+9. Is reduce function will work for objects?
+10. what is the Difference between map, filter, reduce, forEach, for of, for in?
+    https://www.geeksforgeeks.org/how-to-use-map-filter-and-reduce-in-javascript/
+11. what are the parameter available for  map, filter, reduce, forEach, for of, for in?
+12. what is promises and explain in detail?
+13. What is the Difference between promise and callback?

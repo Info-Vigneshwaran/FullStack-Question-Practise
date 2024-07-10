@@ -1,0 +1,14 @@
+sample endpoint:
+1.https://hub.dummyapis.com/employee?noofRecords=10&idStarts=1001
+2. https://dummyjson.com/todos
+
+2. List todo from API (https://dummyjson.com/todos) with CRUD Application
+
+3. Build a trello board
+    - List task by category
+    - Add task
+    - Edit task
+    - Delete task
+    - Change category
+
+4. Create stopwatch with start, stop,reset and pause options.

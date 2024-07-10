@@ -1,0 +1,12 @@
+1. What are hooks available in react and explain their purposes?
+2. explain the component lifecycle method in order for class component?
+3. What is pure component?
+4. What is Higher order component and explain in detail?
+5. What is context in react? give an example?
+6. What is redux and explain in detail with an example for both class and functional component?
+7. explain redux middleware in react-redux? with class and functional components.
+8. why middlewares are used in redux? what are benefits 
+9. explain the Difference between redux-thunk and redux-saga?
+10. What is typescript. explain the usecases and advantages.
+11. what is next js and advantages of the same?
+12. How to use styling for react components?

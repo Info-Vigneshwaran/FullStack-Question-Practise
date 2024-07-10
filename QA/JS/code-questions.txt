@@ -1,0 +1,15 @@
+1.check whether given string is palindrome or not?
+
+2. Input====> consolr.log(computeAmount().lacs(15).crore(5)
+.crore(2).lacs(20).thousand(45).crore(7).value())
+Output ====> 143545000
+
+3. Create a fetchWithAutoRetry(fetcher, count), which
+automatically fetch again when error happens, until the maximum
+count is met.
+
+function fetchWithAutoRetry(fetcher,maximumRetryCount) {
+// code goes here
+}
+
+4. LRU cache(Least Recently Used) - chrome storage automatic eviction
