@@ -13,3 +13,18 @@ function fetchWithAutoRetry(fetcher,maximumRetryCount) {
 }
 
 4. LRU cache(Least Recently Used) - chrome storage automatic eviction
+
+5. let arr = [1,2,3,4,5]
+    arr.length = 0
+    console.log(arr)
+
+6. How to freeze only id as immutable in javascript
+    let user = {
+        id:2,
+        name:'Jhon',
+        age:28,
+        address: {
+            city:"mumbai",
+            state:"mumbai"
+        }
+    }

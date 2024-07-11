@@ -1,6 +1,9 @@
 sample endpoint:
-1.https://hub.dummyapis.com/employee?noofRecords=10&idStarts=1001
+1. https://hub.dummyapis.com/employee?noofRecords=10&idStarts=1001
 2. https://dummyjson.com/todos
+3. https://www.youtube.com/@hpcodegenius/playlists
+4. https://www.youtube.com/@mentorvikash/playlists
+5. https://www.youtube.com/playlist?list=PL77RRzZPMVRI_UGIOr0k4z4vEhYMFXojI
 
 2. List todo from API (https://dummyjson.com/todos) with CRUD Application
 
@@ -12,3 +15,9 @@ sample endpoint:
     - Change category
 
 4. Create stopwatch with start, stop,reset and pause options.
+
+5. Create a counter app with pause and resume?
+
+6. Create a normal todo Application using browser local storage with Grid with CRUD?
+
+7. 

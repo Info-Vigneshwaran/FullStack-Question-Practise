@@ -12,3 +12,32 @@
 11. what are the parameter available for  map, filter, reduce, forEach, for of, for in?
 12. what is promises and explain in detail?
 13. What is the Difference between promise and callback?
+14. What is pure function in javascript?
+15. What is lambda function in javascript?
+16. Difference between array.slice and array.splice
+17. Explain Higher order functions in javascript?
+18. what is prototype and how to create a own prototype. Explain in detail?
+19. What is factory function in javascript?
+20. Difference between constructor function and factory function?
+21. How do we set property in constructor function?
+22. How dow we create a constructor function?
+23. What is a typeof classese?
+    classes are functions under the hood in javascript
+24. Difference between object.seal() vs object.freeze()
+25. how to set selected property in object as readonly javascript?
+26. Difference between debouncing and throttling?
+27. why do we use doctype in html?
+28. What is the use of head tag?
+29. what is the best approach to link js files in HTML Head or body?
+30. Async vs Defer in JavaScript: Which is Better?
+31. how to create custom element in html
+32. what is the Difference between inline and block element in html?
+33. What is display property of images 
+34. categories of inline elements
+    replacable and non-replacable
+35. What is box model? explain in detail?
+36. All the elements are following up the box model?
+    no, inline elements doesn't, they do their own things?
+37. What are the datatypes are available in JS?
+38. what typeof fn, typeof class, typeof array?
+39. What is promises. explain in detail?
