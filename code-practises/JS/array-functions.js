@@ -22,7 +22,14 @@
 //   });
 
 
-// let arr = [1,2,3,4,5]
+let arr = [1,2,3,4,5]
 // arr.length = 0
 // console.log(arr)
+console.log(typeof arr);
+console.log(typeof typeof NaN);
 
+let [a, ,b] = [1,2,3,4]
+console.log(`${a} ${b}`);
+
+const {4:x} = ['a','b','c','d','e','f']
+console.log(`${x}`);

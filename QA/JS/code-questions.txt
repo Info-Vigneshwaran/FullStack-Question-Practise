@@ -28,3 +28,7 @@ function fetchWithAutoRetry(fetcher,maximumRetryCount) {
             state:"mumbai"
         }
     }
+
+7. Find missing the odd number
+    const input = [5,7,9,11,17]
+    output 13,15

@@ -10,4 +10,5 @@
 10. What is typescript. explain the usecases and advantages.
 11. what is next js and advantages of the same?
 12. How to use styling for react components?
-13. 
+13. What is virtual DOM?
+14. Difference between useRef and useState?

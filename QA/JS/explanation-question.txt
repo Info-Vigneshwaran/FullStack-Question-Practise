@@ -26,6 +26,11 @@
 24. Difference between object.seal() vs object.freeze()
 25. how to set selected property in object as readonly javascript?
 26. Difference between debouncing and throttling?
+    Debouncing is a technique that delays the execution of a function
+    until the user stops performing a certain action for a specified amount of time. 
+    
+    Throttling is a technique that limits the execution of a function 
+    to once in every specified time interval
 27. why do we use doctype in html?
 28. What is the use of head tag?
 29. what is the best approach to link js files in HTML Head or body?
@@ -41,3 +46,70 @@
 37. What are the datatypes are available in JS?
 38. what typeof fn, typeof class, typeof array?
 39. What is promises. explain in detail?
+40. What is event delegation in JS.
+41. What is typeof operator in JS?
+42. what can be the possible values typeof operator returns?
+43. Why array treated as object in javascript?
+48. is javascript single threaded or multi threaded?
+49. is javascript compiler or interpreter language?
+50. What is lexical scope in javascript?
+51. What is Difference between synchronous and asynchronous code?
+
+1. How many types of functions exists in javascript?
+2. How many types of operators exists in javascript?
+3. How many bits are javascript used?
+4. Explain the logic of bitwise operator?
+5. Explain Bitwise Operators in details?
+6. Multiple ways to declare array?
+7. The Difference Between Arrays and Objects?
+  In JavaScript, arrays use numbered indexes.
+  In JavaScript, objects use named indexes.
+8. What is Prototype in JavaScript?
+9. What is Constructor in JavaScript?
+10. How many loops available in javascript?
+11. What are the loops available in javascript?
+12. What is global and local variable in javascript?
+13. What is closure in javascript?
+14. How to use closure in javascript?
+15. What are the string methods available in javascript?
+16. What is DOM and how it will work?
+17. What are the document objects properties available in javascript?
+18. Explain innerHTML property?
+19. Difference between innerHTML vs outerHTML vs innerText vs textContent Properties in JavaScript?
+20. what are the classlist properties available in javascript?
+21. What is traversing DOM in javascript?
+22. Explain Nextsibling,previousSiblings,parentNode in javascript?
+23. What are the listener methods available in javascript?
+24. What is JSON. Explain in detail?
+25. What is AJAX. Explain in detail?
+26. Explain How AJAX Works?
+27. Explain Call(),Bind(),Apply() methods in javascript?
+28. What is callback() function?
+29. What is calling() function in javascript?
+30. What is mutable object in javascript?
+31. What is immutable object in javascript? 
+32. Difference between mutable and immutable object?
+33. What is Cookies in javascript?
+34. What is Session in javascript?
+35. What is LocalStorage in javascript?
+36. Difference between Session, Cookies, LocalStorage?
+37. What are the error handling methods available in javascript?
+38. What are regular expressions available in javascript?
+39. what is hoisting?
+40. How hoisting performed in javascript?
+41. Which is the default datatype in javascript?
+42. What is Event Bubbling,Event Capturing,Event target?
+43. Difference between Event Bubbling,Event Capturing,Event target?
+44. What is aysnc and defer in javascript?
+45. Difference between aysnc and defer in javascript?
+46. What are the primitive datatypes available in javascript?
+47. What is primitive datatype in javascript?
+48. What is Deep copy and Shallow copy in javascript?
+49. Difference between Deep copy vs Shallow copy?
+50. What is event.preventDefault() in javascript?
+51. What is targe event property in javascript?
+52. What are the value property available in javascript?
+53. What is getters and setters in javascript?
+54. Difference between == and === in javascript?
+55. Explain prototypes in javascript?
+56. Explain prototype chainning in javascript?
