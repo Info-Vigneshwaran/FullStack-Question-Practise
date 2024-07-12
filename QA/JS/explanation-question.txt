@@ -54,6 +54,8 @@
 49. is javascript compiler or interpreter language?
 50. What is lexical scope in javascript?
 51. What is Difference between synchronous and asynchronous code?
+52. What is complexity explain in detail?
+53. Explain time and space complexity? and how to reduce?
 
 1. How many types of functions exists in javascript?
 2. How many types of operators exists in javascript?

@@ -22,14 +22,32 @@
 //   });
 
 
-let arr = [1,2,3,4,5]
-// arr.length = 0
-// console.log(arr)
-console.log(typeof arr);
-console.log(typeof typeof NaN);
+// let arr = [1,2,3,4,5]
+// // arr.length = 0
+// // console.log(arr)
+// console.log(typeof arr);
+// console.log(typeof typeof NaN);
 
-let [a, ,b] = [1,2,3,4]
-console.log(`${a} ${b}`);
+// let [a, ,b] = [1,2,3,4]
+// console.log(`${a} ${b}`);
 
-const {4:x} = ['a','b','c','d','e','f']
-console.log(`${x}`);
+// const {4:x} = ['a','b','c','d','e','f']
+// console.log(`${x}`);
+
+const input = [2,7,11,4,-2]
+// output = [20,15,11,18,24]
+
+const splitedArr = input.map((value,index,array)=>{
+    let xx = 0;
+    return array.reduce((re_accu,re_value,re_index,re_array)=>{
+        console.log('re_value===>',re_value);
+        if(re_index !== index) {
+            return xx += re_value
+        }
+        // console.log(`re_index===>${re_index}`);
+        // console.log(`index===>${index}`);
+        // console.log(`re_array===>${re_array}`);
+    })
+})
+
+console.log(splitedArr);
