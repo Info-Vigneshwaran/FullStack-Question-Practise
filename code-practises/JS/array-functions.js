@@ -37,17 +37,9 @@
 const input = [2,7,11,4,-2]
 // output = [20,15,11,18,24]
 
-const splitedArr = input.map((value,index,array)=>{
-    let xx = 0;
-    return array.reduce((re_accu,re_value,re_index,re_array)=>{
-        console.log('re_value===>',re_value);
-        if(re_index !== index) {
-            return xx += re_value
-        }
-        // console.log(`re_index===>${re_index}`);
-        // console.log(`index===>${index}`);
-        // console.log(`re_array===>${re_array}`);
-    })
+const splitedArr = input.map((value,_index,array)=>{
+    return array.filter((number) => number !== value)
+    .reduce((acc,value)=>acc+value,0);
 })
 
 console.log(splitedArr);

@@ -56,6 +56,9 @@
 51. What is Difference between synchronous and asynchronous code?
 52. What is complexity explain in detail?
 53. Explain time and space complexity? and how to reduce?
+54. Difference Between Local Storage, Session Storage, And Cookies?
+55. Why react is so popular?
+56. What is this keyword? explain in detail with an example?
 
 1. How many types of functions exists in javascript?
 2. How many types of operators exists in javascript?

@@ -12,3 +12,7 @@
 12. How to use styling for react components?
 13. What is virtual DOM?
 14. Difference between useRef and useState?
+15. What is fragment?
+16. Difference between div and fragment?
+17. Difference between state and props? explain in detail?
+18. diffrenciate useMemo,UseContext,useCallBack?
