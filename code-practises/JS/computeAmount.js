@@ -14,5 +14,8 @@ class computeAmount {
         return this.value
     }
 }
-const computeAmount1 = new computeAmount().thousand(2).hundred(4).value2()
+const computeAmount1 = new computeAmount()
+    .thousand(2)
+    .hundred(4)
+    .value2()
 console.log(computeAmount1);
