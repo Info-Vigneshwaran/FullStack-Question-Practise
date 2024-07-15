@@ -34,12 +34,18 @@
 // const {4:x} = ['a','b','c','d','e','f']
 // console.log(`${x}`);
 
-const input = [2,7,11,4,-2]
-// output = [20,15,11,18,24]
+// const input = [2,7,11,4,-2]
+// // output = [20,15,11,18,24]
 
-const splitedArr = input.map((value,_index,array)=>{
-    return array.filter((number) => number !== value)
-    .reduce((acc,value)=>acc+value,0);
-})
+// const splitedArr = input.map((value,_index,array)=>{
+//     return array.filter((number) => number !== value)
+//     .reduce((acc,value)=>acc+value,0);
+// })
 
-console.log(splitedArr);
+// console.log(splitedArr);
+
+const input3 = [1,3,5,6,5,2,9]
+const input4 = [3,6,2,9,1,19]
+
+const intersect = input3.filter((value)=>input4.indexOf(value) != -1 ? true : false)
+console.log(intersect);

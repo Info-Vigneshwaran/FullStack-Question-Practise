@@ -1,5 +1,7 @@
 1. https://github.com/Vasu7389/JavaScript-Interview-Questions
 2. https://github.com/sudheerj/javascript-interview-questions
+3. https://github.com/Vasu7389/ReactJs-Interview-Question
+
 1.check whether given string is palindrome or not?
 
 2. Input====> console.log(computeAmount().lacs(15).crore(5)
@@ -64,3 +66,25 @@ function fetchWithAutoRetry(fetcher,maximumRetryCount) {
 
 14. Find the maximum occuring character in given string
     const str2 = "this is javascript"
+
+15. Find the length of the longest substring without repeating characters
+    const input = "abbbcabcdefef"
+    output = abcdef
+
+16. Restructure an array - First number, Second Alphabets
+    let arr = [2, "b", 4, "d", 3, "a", "c", "e", 5, 1];
+    The output should be;
+    [2, 4, 3, 5, 1, "b", "d", "a", "c", "e"];
+
+17. Rotate 2D matrix clockwise 
+    let m = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+    ];
+    The output should be;
+    [
+        [6, 3, 0],
+        [7, 4, 1],
+        [8, 5, 2],
+    ];
