@@ -1,3 +1,5 @@
+1. https://github.com/Vasu7389/JavaScript-Interview-Questions
+2. https://github.com/sudheerj/javascript-interview-questions
 1.check whether given string is palindrome or not?
 
 2. Input====> console.log(computeAmount().lacs(15).crore(5)

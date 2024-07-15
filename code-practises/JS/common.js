@@ -44,17 +44,35 @@
 // foo()
 
 
-console.log(5 == '5')
-console.log(typeof NaN)
-let x = "12";
-console.log(typeof x)
-let y = +"12.88";
+// console.log(5 == '5')
+// console.log(typeof NaN)
+// let x = "12";
+// console.log(typeof x)
+// let y = +"12.88";
 
-console.log(`${typeof y} ${y}`)
+// console.log(`${typeof y} ${y}`)
 
-console.log(5 + + '3')
+// console.log(5 + + '3')
 
-console.log(`NaN check ${NaN === NaN}`)
+// console.log(`NaN check ${NaN === NaN}`)
 
-console.log(1<2<3)
-console.log(3>2>1)
+// console.log(1<2<3)
+// console.log(3>2>1)
+
+let a = {};
+let b = { key: "b" };
+let c = { key: "c" };
+
+a[b] = 123;
+a[c] = 456;
+
+console.log(a[b]);
+
+let x = [1, 2, 3];
+let y = [1, 2, 3];
+let z = y;
+
+console.log(x == y);
+console.log(x === y);
+console.log(z == y);
+console.log(z == x);
