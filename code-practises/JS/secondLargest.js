@@ -45,15 +45,44 @@
 // const param1 = curryFn(2)
 // const param2 = param1(2)(5)
 // console.log(param2);
-const input6 = [10,9,8,7,6]
-const myFunction = ((arr,index)=>{
-    return arr[index]
-})
-console.log(myFunction([10,9,8,7,6],5))
+const input6 = [10,9,8,7,6,-2,-1]
+// const myFunction = ((arr,index)=>{
+//     return arr[index]
+// })
+// console.log(myFunction([10,9,8,7,6],4))
 
-const myFunction2 = ((arr,position)=>{
-    return arr.splice(arr.length - position,
-        position);
+// const myFunction2 = ((arr,position)=>{
+//     return arr.splice(arr.length - position,
+//         position);
     
-})
-console.log(myFunction2(input6,2))
+// })
+// console.log(myFunction2(input6,2))
+// const alphaArr = ['z', 'c', 'd', 'a', 'y', 'a', 'w']
+// const negativeNumbers = ((arr)=>{
+//     const sum = arr.reduce((acc,val)=>acc+val,0) / arr.length
+//     return sum/ arr.length;
+//     // return sum / arr.length
+//     // return numArr.sort()
+//     // return numArr.filter((val)=>val<0).length
+// })
+// console.log(negativeNumbers(input6));
+
+// const longestInput = ['I', 'need', 'candy']
+// const longestStr = longestInput.reduce((acc,val) => acc.length > val.length ? acc : val)
+
+// console.log(longestStr);
+
+// const arrElem = ['test', 'test', 'test']
+// const equalArr = arrElem.every( (val, _i, arr) => val === arr[0] )   
+// console.log(equalArr);
+
+console.log(myFunction([1, 2, 3], [4, 5,9,3,1,23, 6]))
+
+function myFunction(a,b){
+    // const uniq = arrays.flat(Infinity)
+    const uniq = [...a,...b]
+return [...new Set(uniq)].sort((a ,b)=>a-b)
+    const newuniq= [...new Set(uniq)].sort((a,b)=>a-b)
+    console.log(newuniq);
+    // return arrays.flat(Infinity)
+}
