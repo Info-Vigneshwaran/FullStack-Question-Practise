@@ -76,13 +76,71 @@ const input6 = [10,9,8,7,6,-2,-1]
 // const equalArr = arrElem.every( (val, _i, arr) => val === arr[0] )   
 // console.log(equalArr);
 
-console.log(myFunction([1, 2, 3], [4, 5,9,3,1,23, 6]))
+// console.log(myFunction([1, 2, 3], [4, 5,9,3,1,23, 6]))
 
-function myFunction(a,b){
-    // const uniq = arrays.flat(Infinity)
-    const uniq = [...a,...b]
-return [...new Set(uniq)].sort((a ,b)=>a-b)
-    const newuniq= [...new Set(uniq)].sort((a,b)=>a-b)
-    console.log(newuniq);
-    // return arrays.flat(Infinity)
+// function myFunction(a,b){
+//     // const uniq = arrays.flat(Infinity)
+//     const uniq = [...a,...b]
+// return [...new Set(uniq)].sort((a ,b)=>a-b)
+//     const newuniq= [...new Set(uniq)].sort((a,b)=>a-b)
+//     console.log(newuniq);
+//     // return arrays.flat(Infinity)
+// }
+
+const dupArr = [1,1,33,33,8,9,0,0]
+
+// const uniqElem = ((value)=>value.filter((val,index,array)=>dupArr.indexOf(val) == array.lastIndexOf(val)))
+// const dupElem = ((value)=>value.filter((val,index,array)=>dupArr.indexOf(val) !== index))
+// console.log(dupElem(dupArr));
+// console.log(uniqElem(dupArr));
+
+// const maxValue = Math.max(...dupArr)
+// const minValue = Math.min(...dupArr)
+// console.log(minValue);
+
+// const minValueReduce = ((arrayValue)=>arrayValue.reduce((acc,val)=>acc<val? acc : val,0))
+
+// console.log(minValueReduce(dupArr))
+
+// const missingElem = ((inputArr)=>{
+//     let missArr = []
+//     const maxValue = Math.max(...inputArr)
+//     const minValue = Math.min(...inputArr)
+//     for (let index = minValue; index < maxValue; index++) {
+//         if(!missArr.includes(index)) {
+//             missArr = [...missArr,index];
+//         }
+//     }
+//     return missArr
+// })
+
+// console.log(missingElem(dupArr));
+class findOddEven {
+    constructor(value){
+        this.value = value
+        this.fact =1
+    }
+    odd(value){
+        this.value = value.filter((val)=>val %2 !== 0)
+        return this
+    }
+    even(value){
+        this.value = value.filter((val)=>val %2 === 0)
+        return this
+    }
+    factorial(value){
+        for (let index = 0; index < value; index++) {
+            this.fact += this.fact * index
+        }
+        return this
+    }
+    value(){
+        return this.value
+    }
+
 }
+
+const findOddEven1 = new findOddEven()
+console.log(findOddEven1
+    .even(dupArr).value
+    );

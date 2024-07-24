@@ -68,11 +68,45 @@ a[c] = 456;
 
 console.log(a[b]);
 
-let x = [1, 2, 3];
-let y = [1, 2, 3];
-let z = y;
+// let x = [1, 2, 3];
+// let y = [1, 2, 3];
+// let z = y;
 
-console.log(x == y);
-console.log(x === y);
-console.log(z == y);
-console.log(z == x);
+// console.log(x == y);
+// console.log(x === y);
+// console.log(z == y);
+// console.log(z == x);
+
+// const timerCheck = ()=> {
+//     console.time("loop");
+//     for (var i = 0; i < 1000000; i += 1) {
+//       // Do nothing
+//     }
+//     console.timeEnd("loop");
+//   }
+//   console.log(timerCheck);
+//   let x = 10;
+
+// function outer() {
+//   console.log(x);
+
+//   if (false) {
+//     var x = 20;
+//   }
+// }
+
+// outer();
+
+// const fruits = ["banana", "apple", "orange", "grape", "kiwi"];
+// const descendingOrder = [...fruits].sort((a, b) => b.localeCompare(a));
+// console.log(descendingOrder); // Output: ['orange', 'kiwi', 'grape', 'banana', 'apple']
+
+// let numbers = [1, 2, 3, 4, 5];
+// numbers = numbers.map((number) => number * 2);
+// console.log(numbers.reduce((total, num) => total + num));
+
+const  xx = () => {
+    return 2,4,5
+}
+
+console.log(xx());

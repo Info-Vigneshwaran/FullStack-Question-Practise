@@ -88,3 +88,10 @@ function fetchWithAutoRetry(fetcher,maximumRetryCount) {
         [7, 4, 1],
         [8, 5, 2],
     ];
+
+18. // you can write to stdout for debugging purposes, e.g.
+
+function solution(arr) {
+    const firstUnique = arr.find((n)=>arr.indexOf(n) === arr.lastIndexOf(n))
+    return !firstUnique ? -1 : firstUnique
+}
