@@ -141,6 +141,103 @@ class findOddEven {
 }
 
 const findOddEven1 = new findOddEven()
-console.log(findOddEven1
-    .even(dupArr).value
-    );
+// console.log(findOddEven1
+//     .even(dupArr).value
+//     );
+
+//     let arrayIntegers = [1, 2, 3, 4, 5];
+// let arrayIntegers1 = arrayIntegers.slice(0, 2); // returns [1,2]
+// let arrayIntegers2 = arrayIntegers.slice(2, 3); // returns [3]
+// let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
+// let arrayIntegers4 = arrayIntegers.slice(-6, -2); //returns [3, 4]
+// console.log(arrayIntegers4);
+
+//Impure
+let numberArray = [];
+const impureAddNumber = (number) => numberArray.push(number);
+//Pure
+const pureAddNumber = (number) => (argNumberArray) =>
+  argNumberArray.concat([number]);
+
+//Display the results
+// console.log(impureAddNumber(6)); // returns 1
+// console.log(numberArray); // returns [6]
+// console.log(numberArray);
+// console.log(pureAddNumber(7)(numberArray)); // returns [6, 7]
+// console.log(numberArray); // returns [6]
+// console.log(impureAddNumber(8));
+// console.log(numberArray); 
+
+// (()=>{
+//     console.log("IIFE")
+// })()
+
+const memoizAddition = (value) => {
+    let cache = {};
+    return (value) => {
+        return cache[value] ? cache[value] :  cache[value] = value+20
+      
+    };
+  };
+  // returned function from memoizAddition
+  const addition = memoizAddition(20);
+  console.log(addition(20)); //output: 40 calculated
+  console.log(addition(20)); //output: 40 cached
+
+isFinite(Infinity); // false
+isFinite(NaN); // false
+isFinite(-Infinity); // false
+
+console.log(isFinite("1004")); // true
+
+//   new Promise(function (resolve, reject) {
+//     setTimeout(() => resolve(1), 1000);
+//   })
+//     .then(function (result) {
+//       console.log(result); // 1
+//       return result * 2;
+//     })
+//     .then(function (result) {
+//       console.log(result); // 2
+//       return result * 3;
+//     })
+//     .then(function (result) {
+//       console.log(result); // 6
+//       return result * 4;
+//     });
+
+
+const object = {
+    a: "Good morning",
+    b: 100,
+  };
+  
+//   for (let value in object) {
+//     console.log(`${value}: ${object[value]}`); // a: 'Good morning'
+//     // b: 100
+//   }
+
+class Employee {
+    constructor() {
+      this.name = "John";
+    }
+  }
+ 
+//   var employeeObject = new Employee();
+ 
+//   console.log(employeeObject.name);
+
+const randon = ~~(Math.random() * 100 +1)
+const randon2 = Math.floor(Math.random() * 100 +1)
+// console.log(randon)
+// console.log(randon2)
+// console.log("Hello ".repeat(4).trimEnd())
+
+var newArray = new Array(5).fill("sd");
+console.log(newArray); // ["0", "0", "0", "0", "0"]
+
+const originalArray = [1, 2, 3, 4, 5];
+const newArrayReduceRight = originalArray.reduceRight((accumulator, value) => {
+  return [...accumulator,value];
+}, []);
+console.log(newArrayReduceRight)
