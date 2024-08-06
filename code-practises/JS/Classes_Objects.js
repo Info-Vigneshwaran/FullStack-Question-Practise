@@ -1,27 +1,29 @@
-class Car{
-    constructor (props){
-        const {name='',year=''} = {...props}
+class Person {
+    constructor(props) {
+        const {name=''} ={...props}
         this.name = name
-        this.year = year
+        this.user = ''
     }
-    EngineModel(model){
-        this.model= model
-        return this
-    }
-} 
 
-// const newCar = new Car({name:"BMW",year:"2020"})
-
-class extendCar extends Car{
-    constructor(name,year,model){
-        super(name,year,model)
-    }
-    ModelWithCC(cc= ''){
-        this.cc = cc 
+    getAge({age=''}){
+        this.user = `${this.name} - ${age}`
         return this
     }
 }
-// console.log(newCar.EngineModel("test"))
 
-const CarWithCC = new extendCar({name:"testee",year:"111"})
-console.log(CarWithCC.ModelWithCC("1010").EngineModel("1212"))
+class Student extends Person {
+    constructor(name,age) {
+        // const {name,age} ={...props}
+        super(name,age)
+    }
+    getStdName({std}){
+        console.log(this.name)
+        console.log(std)
+        return this
+    }
+}
+
+const newStudent = new Student({name:"test",age:"10"})
+
+console.log(newStudent.getAge({age:12}));
+console.log(newStudent.getStdName({std:12}));
