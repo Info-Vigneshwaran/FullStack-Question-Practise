@@ -13,7 +13,6 @@ class Person {
 
 class Student extends Person {
     constructor(name,age) {
-        // const {name,age} ={...props}
         super(name,age)
     }
     getStdName({std}){

@@ -17,4 +17,11 @@ let frozenUser = {
 // Now freeze the `frozenUser` object
 Object.freeze(frozenUser);
 frozenUser.id=4
-console.log(frozenUser)
+
+Object.defineProperties(user,{
+    'id':{
+        writable:false
+    },
+})
+user.id='12'
+console.log(user.id)
