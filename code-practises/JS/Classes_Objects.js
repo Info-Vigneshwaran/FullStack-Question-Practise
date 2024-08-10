@@ -22,7 +22,11 @@ class Student extends Person {
     }
 }
 
+const newPerson = new Person({name:"test",age:"10"})
+
 const newStudent = new Student({name:"test",age:"10"})
+
+console.log(newPerson.getAge({age:18}));
 
 console.log(newStudent.getAge({age:12}));
 console.log(newStudent.getStdName({std:12}));

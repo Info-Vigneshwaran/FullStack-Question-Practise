@@ -16,15 +16,16 @@
 // const alphaArr = arr.filter((val)=> typeof val === "string")
 // console.log([...numArr,...alphaArr]);
 
-// let matrix = [
-//     [0, 1, 2],
-//     [3, 4, 5],
-//     [6, 7, 8],
-// ];
-// const rotateArr = matrix.map((value,index)=>{
-//     return value.map((_val,index2)=>matrix[matrix.length - 1 -index2][index])
-// })
+let matrix = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+];
+const rotateArr = matrix.map((value,index)=>{
+    return value.map((_val,index2)=>matrix[matrix.length - index2 -1][index])
+})
 
+console.log(rotateArr)
 // const amsNum = 15;
 // const amsNumber = amsNum.toString().split("").reduce((acc,val)=>{
 //     return acc += Math.pow(val, 3)

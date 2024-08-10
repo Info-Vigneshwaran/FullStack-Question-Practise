@@ -1,3 +1,4 @@
+
 1. What is hoisting in javascript and how it works?
 2. Difference between var, let and const keywords in JavaScript?
 3. What is event loop and explain in detail with example how its works?
@@ -12,6 +13,7 @@
 11. what are the parameter available for  map, filter, reduce, forEach, for of, for in?
 12. what is promises and explain in detail?
 13. What is the Difference between promise and callback?
+    https://www.geeksforgeeks.org/promise-vs-callback-in-javascript/
 14. What is pure function in javascript?
 15. What is lambda function in javascript?
 16. Difference between array.slice and array.splice

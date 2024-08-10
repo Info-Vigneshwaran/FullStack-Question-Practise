@@ -1,6 +1,6 @@
 class computeAmount {
-    constructor(){
-        this.value = 0
+    constructor(value = 0){
+        this.value = value
     }
     hundred(value){
         this.value += (value*100)

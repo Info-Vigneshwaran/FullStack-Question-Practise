@@ -26,7 +26,7 @@
 // // arr.length = 0
 // // console.log(arr)
 // console.log(typeof arr);
-// console.log(typeof typeof NaN);
+// console.log(typeof typeof NaN) // string;
 
 // let [a, ,b] = [1,2,3,4]
 // console.log(`${a} ${b}`);
