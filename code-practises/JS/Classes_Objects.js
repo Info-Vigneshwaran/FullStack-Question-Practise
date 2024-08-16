@@ -16,7 +16,7 @@ class Student extends Person {
         super(name,age)
     }
     getStdName({std}){
-        console.log(this.name)
+        console.log(this.getAge({age:12225}))
         console.log(std)
         return this
     }
