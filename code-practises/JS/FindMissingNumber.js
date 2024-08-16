@@ -42,3 +42,17 @@ var findDisappearedNumbers = function(nums) {
     return result;
 };
 console.log(findDisappearedNumbers(input));
+
+
+const sumUpFn = (input) => {
+    return [...input]
+      .map((value) => value.match(/\d+/g))
+      .toString()
+      .split(',')
+      .reduce((acc, value) => acc + +value, 0);
+  };
+  
+  const input2 = ['1', 'five', '2wenty', 'thr33'];
+  
+  console.log(sumUpFn(input2));
+  
