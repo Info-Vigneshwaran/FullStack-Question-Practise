@@ -34,15 +34,46 @@ function recursiveSearch(arr) {
    return node
 }
 
-console.log(recursiveSearch(data));
+// console.log(recursiveSearch(data));
 
-// console.log(node);
+const array = [5,6,7,2]
 
-const array = [1, 2, 3, 4]
+// const sumUpFn = (arr)=>arr.map((number)=>arr.filter((value)=>value!== number).reduce((acc,val)=>acc+val,0))
+// console.log(sumUpFn(array));
+const sumUpFnCore =(({inputArr})=>{
+    const length= inputArr.length
+    let arr = []
+    for (let index = 0; index < length; index++) {
+        let sumVal = 0
+        for (let index2= index; index2 < length; index2++) {
+            let sumVal2 = 0
+            if(index !== index2 || index2 === length){
+                // console.log("index2===>",index2);
+                
+                for (let index3 = index2; index3 > 0; index3--) {
+                    // console.log("index3===>",index3)
+                    // console.log("index3===>",index3)
+                    // console.log("index3",inputArr[index3-1]);
+                    sumVal2 +=inputArr[index3-1] 
+                    
+                }
+                
+                console.log("sumVal2",sumVal2);
+                console.log("sumVal",sumVal);
+                
+                sumVal += inputArr[index2] 
 
-const sumUpFn = (arr)=>arr.map((number)=>arr.filter((value)=>value!== number).reduce((acc,val)=>acc+val,0))
+            }
+            
+            // console.log("index",index);
+            
+        }
+        // console.log(arr);
+        
+    }
+})
 
-console.log(sumUpFn(array));
+sumUpFnCore({inputArr:array})
 
 const getListSubArr = (({inputArr})=>{
     const subListArr = [] 
@@ -54,5 +85,5 @@ const getListSubArr = (({inputArr})=>{
     return subListArr
 
 })
-console.log(getListSubArr({inputArr:array}))
+// console.log(getListSubArr({inputArr:array}))
 
