@@ -10,7 +10,7 @@ const checkPromise = new Promise((resolve,reject)=>{
 //     console.log(err);
 // })
 const inputStr = "sdfhsdigfj jgsdfjhg jhsdfjh "
-const outputStr = inputStr.split(" ").join("").split("").reduce((acc,value)=>{
+const outputStr = inputStr.replaceAll(" ","").split("").reduce((acc,value)=>{
          acc[value] = (acc[value]||0) +1
         return acc
      },{})
