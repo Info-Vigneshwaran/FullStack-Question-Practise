@@ -133,4 +133,12 @@ for (let index = minValue; index <= maxValue; index++) {
     }
 }
 
-console.log(findMinValue);
+// console.log(findMinValue);
+
+const input3 = [1,3,5,6,5,2,9]
+const input4 = [3,6,2,9,1,19]
+
+const intersect = input3.filter((value)=>input4.includes(value))
+// const intersect2 = input4.filter((value)=>!input3.includes(value))
+console.log(intersect);
+// console.log([...new Set([...input3,...input4])]);
