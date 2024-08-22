@@ -97,4 +97,21 @@ const printSubStr = (({str1})=>{
 })
 
 printSubStr({str1:inputStr});
-console.log(newArr);
+// console.log(newArr);
+
+const inputFlatArr = [1,2,3,[4,5],[6,7,8]]
+let index2 = 0
+let flatArr=[]
+const findFlat = (({input})=>{
+   input.forEach((element)=>{
+    if(Array.isArray(element)){
+        findFlat({input:element})
+    } else {
+        flatArr = [...flatArr,element]
+    }
+    
+   })
+})
+
+findFlat({input:inputFlatArr})
+console.log(flatArr);

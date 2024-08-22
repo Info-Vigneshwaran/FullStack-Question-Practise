@@ -12,12 +12,11 @@ class Person {
 }
 
 class Student extends Person {
-    constructor(name,age) {
-        super(name,age)
+    constructor(name) {
+        super(name)
     }
     getStdName({std}){
-        console.log(this.getAge({age:12225}))
-        console.log(std)
+        // console.log(this.getAge({age:12225}))
         return this
     }
 }
@@ -26,7 +25,7 @@ const newPerson = new Person({name:"test",age:"10"})
 
 const newStudent = new Student({name:"test",age:"10"})
 
-console.log(newPerson.getAge({age:18}));
+console.log("newPerson.getAge===>",newPerson.getAge({age:18}));
 
-console.log(newStudent.getAge({age:12}));
-console.log(newStudent.getStdName({std:12}));
+console.log("newStudent.getAge===>",newStudent.getAge({age:12}));
+console.log("newStudent.getStdName===>",newStudent.getStdName({std:12}));
