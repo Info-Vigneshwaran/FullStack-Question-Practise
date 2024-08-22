@@ -114,4 +114,23 @@ const findFlat = (({input})=>{
 })
 
 findFlat({input:inputFlatArr})
-console.log(flatArr);
+// console.log(flatArr);
+
+const inputNumArr = [-1,2,7,4,5,6,8]
+let minValue = Math.min(...inputNumArr)
+// const minValue = 0
+const maxValue = Math.max(...inputNumArr)
+let findMinValue 
+if(minValue>=0) {
+    minValue = 0
+}
+for (let index = minValue; index <= maxValue; index++) {
+    if(!inputNumArr.includes(index)) {
+        findMinValue = index+1
+        break;
+    } else {
+        findMinValue = -1
+    }
+}
+
+console.log(findMinValue);
